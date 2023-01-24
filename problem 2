@@ -1,0 +1,1 @@
+When no exception handler for a function can be found, std::terminate() is called, and the application is terminated. In such cases, the call stack may or may not be unwound! If the stack is not unwound, local variables will not be destroyed, and any cleanup expected upon destruction of said variables will not happen!
