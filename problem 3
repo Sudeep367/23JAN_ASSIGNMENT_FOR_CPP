@@ -1,0 +1,3 @@
+The throw keyword throws an exception when a problem is detected, which lets us create a custom error.
+
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
